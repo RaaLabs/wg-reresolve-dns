@@ -47,3 +47,4 @@ ln -sf /usr/lib/systemd/system/wg-reresolve-dns.timer %{buildroot}/usr/share/clr
 /usr/lib/systemd/system/wg-reresolve-dns.service
 /usr/lib/systemd/system/wg-reresolve-dns.timer
 /usr/lib/systemd/system/timers.target.wants/wg-reresolve-dns.timer
+/usr/share/clr-service-restart/wg-reresolve-dns.timer
